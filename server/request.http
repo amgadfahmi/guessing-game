@@ -1,0 +1,15 @@
+GET http://localhost:5000/health
+
+###
+
+GET http://localhost:5000/test
+
+###
+
+POST http://localhost:5000/other HTTP/1.1
+content-type: application/json
+User-Agent: rest-client
+
+{
+    "id": "",
+}
